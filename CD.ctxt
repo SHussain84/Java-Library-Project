@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=CD
+comment1.params=
+comment1.target=CD()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CD\r\n
+comment2.params=scanner3
+comment2.target=void\ readData(java.util.Scanner)
+comment3.params=
+comment3.target=void\ printDetails()
+comment4.params=
+comment4.target=java.lang.String\ getArtist()
+comment5.params=artist
+comment5.target=void\ setArtist(java.lang.String)
+comment6.params=
+comment6.target=int\ getNoOfTracks()
+comment7.params=noOfTracks
+comment7.target=void\ setNoOfTracks(int)
+numComments=8

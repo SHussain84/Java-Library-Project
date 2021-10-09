@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=DVD
+comment1.params=
+comment1.target=DVD()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ DVD\r\n
+comment2.params=scanner3
+comment2.target=void\ readData(java.util.Scanner)
+comment3.params=
+comment3.target=void\ printDetails()
+comment4.params=
+comment4.target=java.lang.String\ getDirector()
+comment5.params=director
+comment5.target=void\ setDirector(java.lang.String)
+numComments=6
