@@ -5,8 +5,7 @@ The model contains classes which represent materials within the library as well 
 
 A basic summary of each Java file:
 
-* [Library.java](https://github.com/SHussain84/Java-Library-Project/blob/main/Library.java)
-	* This file is the foundation to the project - it contains the data structures which house the library items, users, diary and item reservations. This file also contains most of the read and write methods. [Library.java](https://github.com/SHussain84/Java-Library-Project/blob/main/Library.java) utilises scanner objects in order to read through multiple files located in [data](https://github.com/SHussain84/Java-Library-Project/tree/main/data) and store the corresponding data into the appropriate data structures. 
+* [Library.java](https://github.com/SHussain84/Java-Library-Project/blob/main/Library.java) is the foundation to the project - it contains the data structures which house the library items, users, diary and item reservations. This file also contains most of the read and write methods. [Library.java](https://github.com/SHussain84/Java-Library-Project/blob/main/Library.java) utilises scanner objects in order to read through multiple files located in [data](https://github.com/SHussain84/Java-Library-Project/tree/main/data) and store the corresponding data into the appropriate data structures. 
 * [LibraryItem.java](https://github.com/SHussain84/Java-Library-Project/blob/main/LibraryItem.java)
 	* [AudioVisual.java](https://github.com/SHussain84/Java-Library-Project/blob/main/AudioVisual.java)
 		* [DVD.java](https://github.com/SHussain84/Java-Library-Project/blob/main/DVD.java) 
