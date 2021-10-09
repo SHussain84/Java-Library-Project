@@ -1,20 +1,20 @@
 # Java-Library-Project
-A project in Java using object oriented programming (OOP) in order to model a University library system.
+A project in Java using object oriented programming (OOP) in order to model a University library system. 📚
 
 The model contains classes which represent materials within the library as well as users of the library and library staff.
 
 A basic summary of each Java file:
 
-* [Library.java](https://github.com/SHussain84/Java-Library-Project/blob/main/Library.java) is the foundation to the project - it contains the data structures which house the library items, users, diary and item reservations. This file also contains most of the read and write methods. [Library.java](https://github.com/SHussain84/Java-Library-Project/blob/main/Library.java) utilises scanner objects in order to read through multiple files located in [data](https://github.com/SHussain84/Java-Library-Project/tree/main/data) and store the corresponding data into the appropriate data structures. 
-* [LibraryItem.java](https://github.com/SHussain84/Java-Library-Project/blob/main/LibraryItem.java)
-	* [AudioVisual.java](https://github.com/SHussain84/Java-Library-Project/blob/main/AudioVisual.java)
-		* [DVD.java](https://github.com/SHussain84/Java-Library-Project/blob/main/DVD.java) 
-		* [CD.java](https://github.com/SHussain84/Java-Library-Project/blob/main/CD.java)
-	* [PrintedItem.java](https://github.com/SHussain84/Java-Library-Project/blob/main/PrintedItem.java)
-		* [Book.java](https://github.com/SHussain84/Java-Library-Project/blob/main/Book.java)
-		* [Periodical.java](https://github.com/SHussain84/Java-Library-Project/blob/main/Periodical.java)
-* [LibraryUser.java](https://github.com/SHussain84/Java-Library-Project/blob/main/LibraryUser.java)
-* [ItemReservation.java](https://github.com/SHussain84/Java-Library-Project/blob/main/ItemReservation.java)
-* [Test.java](https://github.com/SHussain84/Java-Library-Project/blob/main/Test.java)
-* [Diary.java](https://github.com/SHussain84/Java-Library-Project/blob/main/Diary.java)
-* [DateUtil.java](https://github.com/SHussain84/Java-Library-Project/blob/main/DateUtil.java)
+* [Library.java](https://github.com/SHussain84/Java-Library-Project/blob/main/Library.java) is the foundation to the project - it contains the data structures which house the library items, users, diary and item reservations. This file also contains most of the read and write methods. [Library.java](https://github.com/SHussain84/Java-Library-Project/blob/main/Library.java) utilises Scanner and PrintWriter objects in order to read and write to multiple files located in [data](https://github.com/SHussain84/Java-Library-Project/tree/main/data) and store the corresponding data into the appropriate data structures. 
+* [LibraryItem.java](https://github.com/SHussain84/Java-Library-Project/blob/main/LibraryItem.java) contains the constructor for LibraryItem objects. It also contains the relevant accessor, mutator and read methods.
+	* [AudioVisual.java](https://github.com/SHussain84/Java-Library-Project/blob/main/AudioVisual.java) is a subclass of [LibraryItem.java](https://github.com/SHussain84/Java-Library-Project/blob/main/LibraryItem.java). It contains the constructor, relevant accessor, mutator and read methods for AudioVisual objects.
+		* [DVD.java](https://github.com/SHussain84/Java-Library-Project/blob/main/DVD.java) is a subclass of [AudioVisual.java](https://github.com/SHussain84/Java-Library-Project/blob/main/AudioVisual.java). It contains the constructor, relevant accessor, mutator and read methods for DVD objects.
+		* [CD.java](https://github.com/SHussain84/Java-Library-Project/blob/main/CD.java) is a subclass of [AudioVisual.java](https://github.com/SHussain84/Java-Library-Project/blob/main/AudioVisual.java). It contains the constructor, relevant accessor, mutator and read methods for CD objects.
+	* [PrintedItem.java](https://github.com/SHussain84/Java-Library-Project/blob/main/PrintedItem.java) is a subclass of [LibraryItem.java](https://github.com/SHussain84/Java-Library-Project/blob/main/LibraryItem.java). It contains the constructor, relevant accessor, mutator and read methods for PrintedItem objects. 
+		* [Book.java](https://github.com/SHussain84/Java-Library-Project/blob/main/Book.java) is a subclass of [PrintedItem.java](https://github.com/SHussain84/Java-Library-Project/blob/main/PrintedItem.java). It contains the constructor, relevant accessor, mutator and read methods for Book objects.
+		* [Periodical.java](https://github.com/SHussain84/Java-Library-Project/blob/main/Periodical.java) is a subclass of [PrintedItem.java](https://github.com/SHussain84/Java-Library-Project/blob/main/PrintedItem.java). It contains the constructor, relevant accessor, mutator and read methods for Periodical objects.
+* [LibraryUser.java](https://github.com/SHussain84/Java-Library-Project/blob/main/LibraryUser.java) is used to store the user's details. It contains the accessor, mutator, read and write methods for library users.
+* [ItemReservation.java](https://github.com/SHussain84/Java-Library-Project/blob/main/ItemReservation.java) is used to store item reservations. It contains the accessor, mutator, read and write methods for item reservations.
+* [Test.java](https://github.com/SHussain84/Java-Library-Project/blob/main/Test.java) runs a test on the program when a Test object is created, and prints to the console accordingly. 
+* [Diary.java](https://github.com/SHussain84/Java-Library-Project/blob/main/Diary.java) contains the relevant methods for the Diary class.
+* [DateUtil.java](https://github.com/SHussain84/Java-Library-Project/blob/main/DateUtil.java) contains the relevant methods for the DateUtil class.
